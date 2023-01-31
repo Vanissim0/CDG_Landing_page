@@ -519,6 +519,38 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.right-\[88px\]{
+  right: 88px;
+}
+
+.right-24{
+  right: 6rem;
+}
+
+.right-2{
+  right: 0.5rem;
+}
+
+.right-10{
+  right: 2.5rem;
+}
+
+.float-right{
+  float: right;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -545,12 +577,48 @@ body {
   margin-top: 3.5rem;
 }
 
+.mt-96{
+  margin-top: 24rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mt-\[196px\]{
+  margin-top: 196px;
+}
+
+.mr-\[88px\]{
+  margin-right: 88px;
+}
+
+.ml-6{
+  margin-left: 1.5rem;
+}
+
+.ml-\[655px\]{
+  margin-left: 655px;
+}
+
+.mt-\[716px\]{
+  margin-top: 716px;
+}
+
 .flex{
   display: flex;
 }
 
-.h-\[772px\]{
-  height: 772px;
+.h-\[832px\]{
+  height: 832px;
+}
+
+.h-\[1244px\]{
+  height: 1244px;
+}
+
+.h-\[90px\]{
+  height: 90px;
 }
 
 .w-1280{
@@ -565,6 +633,34 @@ body {
   width: 445px;
 }
 
+.w-64{
+  width: 16rem;
+}
+
+.w-\[167px\]{
+  width: 167px;
+}
+
+.w-80{
+  width: 20rem;
+}
+
+.w-\[537px\]{
+  width: 537px;
+}
+
+.w-\[270px\]{
+  width: 270px;
+}
+
+.flex-grow{
+  flex-grow: 1;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -575,10 +671,6 @@ body {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.justify-around{
-  justify-content: space-around;
 }
 
 .gap-6{
@@ -601,6 +693,16 @@ body {
   border-color: #E5E7EB;;
 }
 
+.border-yellow-900{
+  --tw-border-opacity: 1;
+  border-color: rgb(113 63 18 / var(--tw-border-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-lavender{
   --tw-bg-opacity: 1;
   background-color: rgb(126 58 242 / var(--tw-bg-opacity));
@@ -610,8 +712,16 @@ body {
   background-image: url('./img/photo.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/photo-two\.jpg\'\)\]{
+  background-image: url('./img/photo-two.jpg');
+}
+
 .bg-right{
   background-position: right;
+}
+
+.bg-\[left_top_224px\]{
+  background-position: left top 224px;
 }
 
 .bg-no-repeat{
@@ -641,17 +751,29 @@ body {
   padding-bottom: 1rem;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pl-20{
   padding-left: 5rem;
 }
 
-.pt-40{
-  padding-top: 10rem;
+.pt-\[220px\]{
+  padding-top: 220px;
+}
+
+.pt-24{
+  padding-top: 6rem;
+}
+
+.pl-4{
+  padding-left: 1rem;
+}
+
+.pt-2{
+  padding-top: 0.5rem;
 }
 
 .text-2xl{
@@ -667,6 +789,10 @@ body {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[32px\]{
+  font-size: 32px;
 }
 
 .font-bold{
