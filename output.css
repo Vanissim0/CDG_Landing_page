@@ -547,6 +547,90 @@ body {
   right: 2.5rem;
 }
 
+.left-0{
+  left: 0px;
+}
+
+.left-\[655\[x\]\]{
+  left: 655[x];
+}
+
+.left-\[655px\]{
+  left: 655px;
+}
+
+.left-\[65px\]{
+  left: 65px;
+}
+
+.left-\[85px\]{
+  left: 85px;
+}
+
+.left-\[680px\]{
+  left: 680px;
+}
+
+.top-\[494px\]{
+  top: 494px;
+}
+
+.bottom-\[494px\]{
+  bottom: 494px;
+}
+
+.left-\[20px\]{
+  left: 20px;
+}
+
+.top-\[24px\]{
+  top: 24px;
+}
+
+.top-\[60px\]{
+  top: 60px;
+}
+
+.top-\[160px\]{
+  top: 160px;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
+.right-\[437px\]{
+  right: 437px;
+}
+
+.right-\[337px\]{
+  right: 337px;
+}
+
+.right-\[367px\]{
+  right: 367px;
+}
+
+.right-\[467px\]{
+  right: 467px;
+}
+
+.right-\[387px\]{
+  right: 387px;
+}
+
+.right-\[369px\]{
+  right: 369px;
+}
+
+.right-\[370px\]{
+  right: 370px;
+}
+
+.top-10{
+  top: 2.5rem;
+}
+
 .float-right{
   float: right;
 }
@@ -605,6 +689,74 @@ body {
   margin-top: 716px;
 }
 
+.mt-\[500px\]{
+  margin-top: 500px;
+}
+
+.mt-\[600px\]{
+  margin-top: 600px;
+}
+
+.mt-\[550px\]{
+  margin-top: 550px;
+}
+
+.mt-\[576px\]{
+  margin-top: 576px;
+}
+
+.mb-11{
+  margin-bottom: 2.75rem;
+}
+
+.ml-0{
+  margin-left: 0px;
+}
+
+.ml-11{
+  margin-left: 2.75rem;
+}
+
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.mt-\[144px\]{
+  margin-top: 144px;
+}
+
+.mt-\[224px\]{
+  margin-top: 224px;
+}
+
+.mt-\[324px\]{
+  margin-top: 324px;
+}
+
+.mt-\[300px\]{
+  margin-top: 300px;
+}
+
+.mt-\[280px\]{
+  margin-top: 280px;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-\[132px\]{
+  margin-top: 132px;
+}
+
+.mt-\[182px\]{
+  margin-top: 182px;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
 }
@@ -619,6 +771,22 @@ body {
 
 .h-\[90px\]{
   height: 90px;
+}
+
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[292px\]{
+  height: 292px;
+}
+
+.h-\[68px\]{
+  height: 68px;
+}
+
+.h-\[708px\]{
+  height: 708px;
 }
 
 .w-1280{
@@ -653,12 +821,53 @@ body {
   width: 270px;
 }
 
+.w-28{
+  width: 7rem;
+}
+
+.w-96{
+  width: 24rem;
+}
+
+.w-\[300px\]{
+  width: 300px;
+}
+
+.w-48{
+  width: 12rem;
+}
+
+.w-\[540px\]{
+  width: 540px;
+}
+
+.w-\[152px\]{
+  width: 152px;
+}
+
+.w-52{
+  width: 13rem;
+}
+
 .flex-grow{
   flex-grow: 1;
 }
 
+.rotate-90{
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .flex-row{
   flex-direction: row;
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse;
 }
 
 .flex-col{
@@ -669,12 +878,52 @@ body {
   align-items: center;
 }
 
+.justify-start{
+  justify-content: flex-start;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
 
+.justify-around{
+  justify-content: space-around;
+}
+
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-7{
+  gap: 1.75rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-20{
+  gap: 5rem;
+}
+
+.gap-14{
+  gap: 3.5rem;
+}
+
+.gap-56{
+  gap: 14rem;
+}
+
+.gap-\[217px\]{
+  gap: 217px;
 }
 
 .rounded-\[50px\]{
@@ -716,6 +965,18 @@ body {
   background-image: url('./img/photo-two.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/unsplash\'\)\]{
+  background-image: url('./img/unsplash');
+}
+
+.bg-\[url\(\'\.\/img\/unsplash\.svg\'\)\]{
+  background-image: url('./img/unsplash.svg');
+}
+
+.bg-\[url\(\'\.\/img\/unsplash\.jpg\'\)\]{
+  background-image: url('./img/unsplash.jpg');
+}
+
 .bg-right{
   background-position: right;
 }
@@ -734,6 +995,10 @@ body {
 
 .p-3{
   padding: 0.75rem;
+}
+
+.p-11{
+  padding: 2.75rem;
 }
 
 .px-20{
@@ -756,6 +1021,11 @@ body {
   padding-right: 1.5rem;
 }
 
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .pl-20{
   padding-left: 5rem;
 }
@@ -774,6 +1044,18 @@ body {
 
 .pt-2{
   padding-top: 0.5rem;
+}
+
+.pt-12{
+  padding-top: 3rem;
+}
+
+.pt-\[44px\]{
+  padding-top: 44px;
+}
+
+.pt-\[144px\]{
+  padding-top: 144px;
 }
 
 .text-2xl{
