@@ -12,6 +12,7 @@ module.exports = {
         'white': '#FCFBFA',
         'grey-light': '#E5E7EB',
         'red': '#E02424',
+        'lavender-border': '#CABFFD'
       },
       screens: {
         'tablet': '640px',
