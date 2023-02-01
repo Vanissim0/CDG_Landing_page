@@ -11,7 +11,7 @@ module.exports = {
         'hober-lavender': '#6C2BD9',
         'white': '#FCFBFA',
         'grey-light': '#E5E7EB',
-        'red': '#E02424'
+        'red': '#E02424',
       },
       screens: {
         'tablet': '640px',
