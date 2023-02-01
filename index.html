@@ -14,8 +14,8 @@
         rel="stylesheet">
 </head>
 
-<body class="w-1280 mx-auto ">
-    <div class="flex mx-auto w-1280 border-b border-grey justify-between bg-white fixed">
+<body class="w-1280 mx-auto">
+    <header class="flex mx-auto w-1280 border-b border-grey justify-between bg-white fixed">
         <div class="flex p-3">
             <a href="" class="flex items-center pl-20">
                 <img src="img/Logo.svg" alt="logo" class="flex">
@@ -26,7 +26,6 @@
         <div class="flex items-center gap-6 px-20 hover:white ">
             <a href="#" class="flex hover:text-lavender">
                 Main
-                <!-- <img src="img/menu.svg" alt=""> -->
             </a>
             <a href="#" class="flex hover:text-lavender">
                 About
@@ -35,7 +34,7 @@
                 Get in touch
             </a>
         </div>
-    </div>
+    </header>
     <div class="w-1280 h-[832px] bg-[url('./img/photo.jpg')] bg-no-repeat bg-right ">
         
         <div class="flex flex-col pt-[220px] pl-20 w-[480px]">
@@ -48,7 +47,7 @@
                 business thrive
             </p>
         </div>
-        <div class="absolute w-64 mt-14 left-[85px]">
+        <div class="w-64 mt-14 left-[85px]">
             <a href="#"
                 class="flex justify-between bg-lavender ml-20 my-4 py-4  px-6 text-white rounded-[50px] hover:bg-hober-lavender">
                 Get in touch
@@ -68,7 +67,7 @@
                     passion. <br>Solving issues through negotiations
                 </p>
             </span>
-            <div class="absolute w-64 right-[370px] mt-[280px]">
+            <div class="relative w-64 left-[-80px] top-[84px] mt-[80px]">
                 <a href="#"
                     class="flex justify-between bg-lavender ml-20 my-4 py-4  px-6 text-white rounded-[50px] hover:bg-hober-lavender">
                     Get in touch
@@ -80,7 +79,7 @@
         
 
         <div class="flex justify-start gap-[217px]">
-            <div class="flex flex-col mt-[576px] text-black w-80">
+            <div class="flex flex-col mt-[300px] text-black w-80">
                 <h3 class="text-2xl font-bold w-28 mb-11">Interests</h3>
                 <div class="flex flex-col justify-between h-[292px] text-xl">
                     <div class="flex w-[270px] ">
@@ -108,7 +107,7 @@
             </div>
         
 
-        <div class="flex flex-col mt-[576px] text-black w-[540px]">
+        <div class="flex flex-col mt-[300px] text-black w-[540px]">
             <h3 class="text-2xl font-bold mb-11 w-[300px]">Education & Experience</h3>
             <div class="flex flex-col justify-between h-[292px] text-xl">
                 <div class="flex ">
@@ -143,9 +142,38 @@
     </div>
     </div>
     </div>
-    <div class="h-[708px] bg-[url('./img/unsplash.jpg')] mt-[182px]">
-        
+    <div class="h-[708px] bg-[url('./img/unsplash.jpg')] mt-[182px] p-[70px]">
+        <div class="mx-auto w-[764px] h-[567px] bg-white p-10 rounded-2xl p-12">
+            <div class="flex flex-col  w-[167px]">
+                <h2 class="flex text-[32px] text-black font-bold w-[480px]">Let’s discuss your project</h2>
+            </div>
+            <form action="#" autocomplete="off" class="flex justify-around gap-5 pt-12">
+                <div >
+                    <label for="name" class="block" >Your full name *</label>
+                    <div class="relative">
+                        <div class="absolute left-0 inset-y-0 flex items-center pl-5 pt-2" >
+                            <img src="/img/Vector-input.svg" alt="">
+                        </div>
+                        <input type="text" placeholder="Name Surname" name="" id="name" class="w-[324px] h-[55px] mt-2 pl-[54px] border-grey-light rounded-2xl">
+                    </div>
+                </div>
+                <div>
+                    <label for="name" class="" >Your email *</label>
+                    <div class="relative">
+                        <div class="absolute left-0 inset-y-0 flex items-center pl-6 pt-2" >
+                            <img src="/img/Vector-input-mail.svg" alt="">
+                        </div>
+                        <input type="text" placeholder="name@example.com" name="" id="name" class="w-[324px] h-[55px] mt-2 pl-[54px] border-red rounded-2xl">
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
+    <footer class="h-[81px] bg-white">
+        <span class="">
+            <p class="text-grey-dark text-base pl-[85px] pt-7">© 2022 JetRuby. All Rights Reserved</p>
+        </span>
+    </footer>
 </body>
 
 </html>
