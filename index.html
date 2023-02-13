@@ -14,16 +14,14 @@
         rel="stylesheet">
 </head>
 
-<body class="w-1280 mx-auto">
+<body class="xl:w-1280 mx-auto">
     <header class=" flex mx-auto w-1280 border-b border-grey justify-between bg-white fixed z-10">
         <div class="flex p-3">
             <a href="" class="flex items-center pl-20">
                 <img src="img/Logo.svg" alt="logo" class="flex">
             </a>
-
-
         </div>
-        <div class="flex items-center gap-6 px-20 hover:white ">
+        <nav class="hidden md:flex items-center gap-6 px-20 hover:white ">
             <a href="#main" class="flex hover:text-lavender">
                 Main
             </a>
@@ -33,7 +31,10 @@
             <a href="#bottom" class="flex hover:text-lavender">
                 Get in touch
             </a>
-        </div>
+        </nav>
+        <button class="inline-block md:hidden"> 
+            <img src="img/mobile_menu.svg" alt="">
+        </button>
     </header>
     <div class="w-1280 h-[832px] bg-[url('./img/photo.jpg')] bg-no-repeat bg-right ">
         <a name="main">

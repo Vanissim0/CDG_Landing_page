@@ -788,8 +788,16 @@ body {
   margin-top: 2.25rem;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-\[832px\]{
@@ -1184,6 +1192,22 @@ body {
 .active\:bg-lavender-border:active{
   --tw-bg-opacity: 1;
   background-color: rgb(202 191 253 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:w-1280{
+    width: 1280px;
+  }
 }
 
 
